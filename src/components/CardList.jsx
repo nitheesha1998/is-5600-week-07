@@ -8,7 +8,7 @@ const CardList = ({ data }) => {
    const limit = 10;
    const [offset, setOffset] = useState(0);
 
-
+   
   // Define the products state variable and set it to the default dataset
   const [products, setProducts] = useState();
 
